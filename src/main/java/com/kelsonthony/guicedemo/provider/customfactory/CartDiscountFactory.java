@@ -1,11 +1,13 @@
 package com.kelsonthony.guicedemo.provider.customfactory;
 
 import com.google.inject.Inject;
+import com.google.inject.Singleton;
 
 import java.util.Map;
 import static com.kelsonthony.guicedemo.provider.customfactory.DiscountGuiceModule.DiscountOption;
 import static com.kelsonthony.guicedemo.provider.customfactory.DiscountGuiceModule.DiscountOption.*;
 
+@Singleton
 public class CartDiscountFactory implements DiscountFactory{
 
     final Map<DiscountOption, Discountable> discountableBinder;

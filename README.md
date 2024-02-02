@@ -35,3 +35,13 @@ How to use a Guice @Provider 2
   - Guice MapBinder
 - Injecting runtime data into Providers
   - Rolling your own Factory
+
+How to use a Guice @Assist (AKA: Assisted Inject)
+
+- Addresses what problem?
+-  other options 
+  - mutable object
+  - build pattern
+  - Write you own Factory
+
+Advice on when to justify using Assisted Inject?
